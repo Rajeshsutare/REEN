@@ -1,0 +1,296 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+.icon span{
+ font-size: 12px;
+ color: #506a85;
+}
+.header{
+    margin-bottom: 15px;
+}
+#navbarSupportedContent ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+#navbarSupportedContent ul li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    color: #506a85;
+    
+}
+#navbarSupportedContent ul .nav-item:focus,
+#navbarSupportedContent ul .nav-item:hover{
+    background-color: rgb(118, 134, 213);
+    cursor: pointer;
+}
+
+.headContainer>.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right:0; 
+     margin-left: 0;
+}
+.display-head{
+    height: 600px;
+    background-color: #506a85;
+}
+.innerContennt{
+    height: 500px;
+    width: 100%;
+}
+.innerContennt img{
+    height:420px;
+    width: 100%;
+}
+.content_in h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.content-2{
+    float: left;
+}
+.content_in button{
+    font-size: 12px;
+    font-weight: 800;
+    padding: 12px;
+}
+
+.checkOut{
+    margin-top: 130px;
+
+}
+.mt-90{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+
+.boxes{
+
+background-color: #f1f5f7;
+width: 100%;
+}
+
+.boxes .box-heading{
+    margin: 130px 0 40px 0;
+    
+}
+.box-heading h2{
+    font-size: 44px;
+    color: #506a85;
+    font-weight: 900;
+}
+.card-bg{
+    background-color: #00bb9b;
+    height: 385px;
+}
+
+.cfooter{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+    
+}
+.cfooter p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #506a85;
+}
+
+.identity p{
+    font-size: 14px;
+    color: #73879c;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.box11{
+    background-color: #00bb9b;
+    height: 180px;
+    margin-top: 90px;
+
+}
+.box-footer{
+    margin-bottom: 135px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.info-heading{
+    margin: 110px 0 40px 0;
+}
+.info-heading h1{
+    font-size: 44px;
+    color: #506a85;
+    font-weight: bold;
+}
+.info-para p{
+    line-height: 2;
+    margin-bottom: 70px;
+    font-size: 22px;
+    color: #73879c;
+}
+.infoBTN{
+    margin-bottom: 130px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-section{
+    background-color: #2f3f51;
+    height: auto;
+padding-bottom: 70px;
+}
+
+.footer-heading h2{
+    margin-top: 70px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.FtLogoIMg img {
+    margin-top: 35px;
+}
+.ft-Para p{
+    font-size: 14px;
+    color: #a3b1bf;
+    margin: 15px 0 20px 0;
+    line-height: 1.5;
+}
+.moreAbout a{
+    color: #a3b1bf;
+}
+
+.latest-work h2{
+    margin-top: 70px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.ft-boxex{
+    display: flex;
+}
+
+.ft-boxes-22{
+    display: flex;
+}
+.ft-boxex .box22,.ft-boxes-22 .box22{
+    
+    background-color: #00bb9b;
+    width: 100px;
+    height: 65px;
+    margin: 5px;
+}
+
+
+
+.getIn h2{
+    margin-top: 70px;
+    font-size: 16px;
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.get-in-para p{
+    font-size: 14px;
+color:#a3b1bf;
+margin-top: 30px;
+line-height: 1.5;
+
+}
+.get-in-info{
+    font-size: 14px;
+    color:#a3b1bf;
+    line-height: 1.5;
+}
+
+
+.footer-2{
+    background-color: #273545;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+.ftBottom p{
+    color: #707e8c;
+}
+
+.ftBottom-info{
+    margin-left: auto;
+}
+.ftBottom-info ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    
+   
+}
+.ftBottom-info ul li{
+flex-grow: 1;
+text-align: center;
+}
+.ftBottom-info ul li a{
+    padding: 10px;
+    color: #707e8c;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.ftBottom-info ul li a:hover{
+    background-color: #a3b1bf;
+    color: #fff;
+    text-decoration: none;
+}
+.last-sec{
+    height: 50vh;
+}
+
+
+
+
+
+
+@media  all and (min-width:576px){
+    .respMargin{
+        margin-left: 300px;
+        
+    }
+    .navbar-nav {
+        padding-left: 100px;
+    }
+
+}
+@media  all and (min-width:992px){
+    .navbar-expand-lg .navbar-collapse {
+        margin-left: 0;
+        
+    }
+    .navbar-nav {
+        padding-left: 100px;
+    }
+}
