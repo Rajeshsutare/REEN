@@ -29,20 +29,55 @@ html {
     cursor: pointer;
 }
 
+.main-Menu{
+    background: url('../img/imagebg.jpg');
+    background-position: center;
+  
+}
 .headContainer>.row {
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
+    align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-right:0; 
      margin-left: 0;
+     width: 100%;
+     
+}
+.content_in {
+   position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    color: #fff;
+    text-align: center; 
+}
+.content_in .btnRA{
+    background-color: #00bb9b;
+    
+}
+.content_in .btnRA a{
+    color: #fff;
+}
+.content_in .btnRA:hover{
+background-color: #fff;
+border: 2px solid aqua;
+color: aqua;
+}
+.content_in .btnRA a:hover{
+    color: aqua;
 }
 .display-head{
-    height: 600px;
-    background-color: #506a85;
+    height: 500px;
+    /* background-color: #506a85; */
 }
 .innerContennt{
-    height: 500px;
+    height: 450px;
     width: 100%;
 }
 .innerContennt img{
@@ -66,7 +101,7 @@ html {
 }
 
 .checkOut{
-    margin-top: 130px;
+    margin-top: 60px;
 
 }
 .mt-90{
@@ -91,8 +126,13 @@ width: 100%;
     font-weight: 900;
 }
 .card-bg{
-    background-color: #00bb9b;
+    
     height: 385px;
+}
+.card-bg img{
+height: 100%;
+width: 100%;
+
 }
 
 .cfooter{
@@ -120,10 +160,15 @@ width: 100%;
 
 
 .box11{
-    background-color: #00bb9b;
-    height: 180px;
+    
+    height: 250px;
     margin-top: 90px;
 
+}
+.box11 img{
+    height: 100%;
+    /* width: 100%; */
+    margin-bottom: 20px;
 }
 .box-footer{
     margin-bottom: 135px;
@@ -180,6 +225,7 @@ padding-bottom: 70px;
     color: #a3b1bf;
 }
 
+
 .latest-work h2{
     margin-top: 70px;
     font-size: 16px;
@@ -190,18 +236,24 @@ padding-bottom: 70px;
 }
 .ft-boxex{
     display: flex;
+    
 }
 
 .ft-boxes-22{
     display: flex;
-}
-.ft-boxex .box22,.ft-boxes-22 .box22{
     
-    background-color: #00bb9b;
-    width: 100px;
-    height: 65px;
-    margin: 5px;
 }
+.box22 img{
+    width: 120px;
+    height: 85px;
+    margin: 10px;
+}
+/* .ft-boxex .box22,.ft-boxes-22 .box22{
+    
+    width: 120px;
+    height: 85px;
+    margin: 10px;
+} */
 
 
 
@@ -270,16 +322,30 @@ text-align: center;
     height: 50vh;
 }
 
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
 
+@media  all and (max-width:576px){
+    .box11 img{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 10px;
+    }
 
-
+}
 
 
 @media  all and (min-width:576px){
-    .respMargin{
+    /* .respMargin{
         margin-left: 300px;
         
-    }
+    } */
     .navbar-nav {
         padding-left: 100px;
     }
