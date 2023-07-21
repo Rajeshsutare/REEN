@@ -47,19 +47,19 @@ html {
      
 }
 .content_in {
-   position: absolute;
-    right: 15%;
+   /* position: absolute; */
+    /* right: 15%;
     bottom: 20px;
-    left: 15%;
+    left: 15%; */
     z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 200px;
     color: #fff;
     text-align: center; 
+    padding: 140px 20px 200px 20px;
 }
 .content_in .btnRA{
     background-color: #00bb9b;
-    
+    color: #fff;
+    text-transform: uppercase;
 }
 .content_in .btnRA a{
     color: #fff;
@@ -73,11 +73,10 @@ color: aqua;
     color: aqua;
 }
 .display-head{
-    height: 500px;
-    /* background-color: #506a85; */
+    height: 400px;
 }
 .innerContennt{
-    height: 450px;
+    height: 100% ;
     width: 100%;
 }
 .innerContennt img{
@@ -102,8 +101,16 @@ color: aqua;
 
 .checkOut{
     margin-top: 60px;
+}
+.checkOut h1{
+   color: #506a85;
 
 }
+
+.headtInfo h3{
+    color: #506a85;
+}
+
 .mt-90{
     margin-top: 90px;
     margin-bottom: 120px;
@@ -127,12 +134,12 @@ width: 100%;
 }
 .card-bg{
     
-    height: 385px;
+    height:700px;
 }
 .card-bg img{
 height: 100%;
 width: 100%;
-
+object-fit: cover;
 }
 
 .cfooter{
@@ -167,8 +174,9 @@ width: 100%;
 }
 .box11 img{
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
     margin-bottom: 20px;
+    object-fit: contain;
 }
 .box-footer{
     margin-bottom: 135px;
@@ -248,12 +256,7 @@ padding-bottom: 70px;
     height: 85px;
     margin: 10px;
 }
-/* .ft-boxex .box22,.ft-boxes-22 .box22{
-    
-    width: 120px;
-    height: 85px;
-    margin: 10px;
-} */
+
 
 
 
@@ -337,19 +340,30 @@ text-align: center;
         height: 350px;
         margin-bottom: 10px;
     }
-
+    .card-bg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .display-head{
+        height: 500px;
+    }
 }
 
 
 @media  all and (min-width:576px){
-    /* .respMargin{
-        margin-left: 300px;
-        
-    } */
+
     .navbar-nav {
         padding-left: 100px;
     }
-
+    .card-bg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .display-head{
+        height: 400px;
+    }
 }
 @media  all and (min-width:992px){
     .navbar-expand-lg .navbar-collapse {
@@ -358,5 +372,10 @@ text-align: center;
     }
     .navbar-nav {
         padding-left: 100px;
+    }
+    .card-bg img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 }
